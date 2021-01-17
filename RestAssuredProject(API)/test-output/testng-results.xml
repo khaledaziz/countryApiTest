@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-01-17T23:12:33 EET" name="Default suite" finished-at="2021-01-17T23:12:40 EET" duration-ms="7056">
+    <groups>
+    </groups>
+    <test started-at="2021-01-17T23:12:33 EET" name="Default test" finished-at="2021-01-17T23:12:40 EET" duration-ms="7056">
+      <class name="testing.CountriesApiTest">
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:testing.CountriesApiTest@ea9b7c6]" started-at="2021-01-17T23:12:33 EET" name="setupReport" finished-at="2021-01-17T23:12:33 EET" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method signature="verifyResponseWithCorrectCapital()[pri:0, instance:testing.CountriesApiTest@ea9b7c6]" started-at="2021-01-17T23:12:33 EET" name="verifyResponseWithCorrectCapital" finished-at="2021-01-17T23:12:37 EET" duration-ms="3875" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResponseWithCorrectCapital -->
+        <test-method is-config="true" signature="finalizeTest(org.testng.ITestResult)[pri:0, instance:testing.CountriesApiTest@ea9b7c6]" started-at="2021-01-17T23:12:37 EET" name="finalizeTest" finished-at="2021-01-17T23:12:37 EET" duration-ms="156" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyResponseWithCorrectCapital status=SUCCESS method=CountriesApiTest.verifyResponseWithCorrectCapital()[pri:0, instance:testing.CountriesApiTest@ea9b7c6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finalizeTest -->
+        <test-method signature="verifyResponseWithNullCapital()[pri:0, instance:testing.CountriesApiTest@ea9b7c6]" started-at="2021-01-17T23:12:37 EET" name="verifyResponseWithNullCapital" finished-at="2021-01-17T23:12:40 EET" duration-ms="2889" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResponseWithNullCapital -->
+        <test-method is-config="true" signature="finalizeTest(org.testng.ITestResult)[pri:0, instance:testing.CountriesApiTest@ea9b7c6]" started-at="2021-01-17T23:12:40 EET" name="finalizeTest" finished-at="2021-01-17T23:12:40 EET" duration-ms="39" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyResponseWithNullCapital status=SUCCESS method=CountriesApiTest.verifyResponseWithNullCapital()[pri:0, instance:testing.CountriesApiTest@ea9b7c6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finalizeTest -->
+      </class> <!-- testing.CountriesApiTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
